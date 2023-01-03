@@ -25,7 +25,7 @@ public class ReceiveMessage implements Runnable {
             while(serverResponse.hasNextLine()) {
                 String responseLine = serverResponse.nextLine();
                 System.out.println(responseLine);
-                printWriter.println(LocalDateTime.now() + ": "+ responseLine);
+                printWriter.printf("%s <RECEIVE> %s%n", LocalDateTime.now(), responseLine);
             }
 
             serverResponse.close();
