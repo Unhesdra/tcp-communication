@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<host>localhost</host>
+	<port>55555</port>
+	<encoding>utf-8</encoding>
+</Configuration>
